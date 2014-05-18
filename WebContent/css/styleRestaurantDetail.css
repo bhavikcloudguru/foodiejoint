@@ -1,0 +1,82 @@
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+	
+}
+.thrColAbs #container { 
+	position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background-color: #ffffff;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+.thrColAbs #mainContent { 
+	margin: 0 15px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. */
+	padding: 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	font-family:"Arial Rounded MT Bold";
+	color:#1B1B1B;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+	
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+
+hr {
+    border: 0; height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));       
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.2), rgba(0,0,0,0.3), rgba(0,0,0,0.2)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    width:100%; 
+}
+
+.numbers{
+color:#666666;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+.bodyColor{
+background-image:-moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0))!important; 
+}
+.hotelName
+{
+background-image:-moz-linear-gradient(left, #CC0000,#CC0000 ,#ffffff)!important; 
+
+}
+#menuBar  tr{
+/*background-image:-moz-linear-gradient(left,  rgba(0,42,255,0.5) ,#0066FF,#0066FF  ,#0066FF,rgba(0,42,255,0.5))!important; */
+background-color:#009966;
+height:30px;
+}
+#menuBar td{
+width:100px;
+}
+.menuItems
+{
+text-decoration:none;
+height:30px;
+width:100px;
+color:#ffffff;
+padding:5px 50px 5px 50px;
+}
+.menuItems:hover
+{
+text-decoration:none;
+height:120%;
+width:120%;
+color:#009966;
+background-color:#ffffff;
+}

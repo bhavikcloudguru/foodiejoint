@@ -1,0 +1,18 @@
+#bodyContent{
+	overflow-y:scroll;
+}
+
+#myTabs>ul
+{
+	background:none;
+	border:none;
+	width:40%;
+	margin:0 auto;
+}
+div[id^="tabs"]{
+	border:1px solid #AAAAAA !important;
+}
+#myTabs{
+	background:inherit;
+	border:none;
+}

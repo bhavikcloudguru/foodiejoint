@@ -1,0 +1,188 @@
+#footer {
+	background: #ffab62;
+	width: 100%;
+	/*height:3em;*/
+	/*position:fixed;
+	bottom:0;
+	left:0;*/
+	text-align: center;
+	padding-top: 1em;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/* Adds the transparent background */
+	background-color: rgba(1, 1, 1, 0.8);
+	color: #ffffff;
+	padding-top: 1em;
+}
+
+body {
+	padding: 0; /* Gets rid of the automatic padding */
+	margin: 0; /*	on HTML documents */
+	font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+#navigation {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 35px;
+	text-align: center;
+	padding-top: 10px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/* Adds the transparent background */
+	background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: grey;
+}
+
+/* search bar*/
+#tfnewsearch {
+	/*float:right;*/
+	/*padding:10px;*/
+	
+}
+
+.tftextinput {
+	margin: 0;
+	padding: 3px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #f9f9f3;
+	border: 1px solid #0076a3;
+	border-right: 0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+
+.tfbutton {
+	margin: 0;
+	padding: 3px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3;
+	border-right: 0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee),
+		to(#0078a5));
+	background: -moz-linear-gradient(top, #00adee, #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+
+.tfbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc),
+		to(#00678e));
+	background: -moz-linear-gradient(top, #0095cc, #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+	border: 0;
+}
+
+#mainContent select {
+	width: 100%;
+	height: 1.5em;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	min-height: 550px;
+	min-width: 900px;
+	padding-top: 1px;
+}
+
+#slider {
+	margin: 100px 0 0 0;
+	height: 500px;
+	overflow: hidden;
+	background: url(img/ajax-loader.gif) center center no-repeat;
+}
+
+#slider .slide {
+	position: relative;
+	display: none;
+	height: 500px;
+	float: left;
+	background-position: center right;
+	cursor: pointer;
+	border-left: 1px solid #fff;
+}
+
+#slider .slide:first-child {
+	border: none;
+}
+
+#slider .slide.active {
+	cursor: default;
+}
+
+#slider .slide-block {
+	position: absolute;
+	left: 40px;
+	bottom: 75px;
+	display: inline-block;
+	width: 435px;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 14px;
+	color: #134B94;
+	border: 1px solid #fff;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+#slider .slide-block h4 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	line-height: 1;
+}
+
+#slider .slide-block p {
+	margin: 0;
+}
+
+.wrapperAdded {
+	display: block;
+	text-align: start;
+	float: none;
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	z-index: auto;
+	/*width: 1349px;*/
+	height: 500px;
+	/*margin: 100px 0px 0px;*/
+	margin-top:1.5em;
+	overflow: hidden;
+}
